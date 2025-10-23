@@ -19,7 +19,7 @@ Zemmal Kounouz– GitHub: https://github.com/Kounouz-Zl
 Aya Khoumari – GitHub: https://github.com/AYA-KHOUMARI
 
 
-Abdelmalek Nedjar – GitHub:https://github.com/Abdelmalek05
+Abdelmalek Nedjar – GitHub:https://github .com/Abdelmalek05
 
 
 DEPLOYED WEBSITE

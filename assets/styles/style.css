@@ -1,0 +1,124 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8faff;
+  margin: 0;
+  padding: 0;
+  color: #111417;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8faff;
+}
+
+.menu-bar {
+  display: flex;
+  justify-content: flex-start;
+  padding: 5px 20px;
+}
+
+.material-symbols-outlined {
+  font-size: 24px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.subtitle {
+  color: #4c99e6;
+  font-size: 16px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.description {
+  text-align: center;
+  color: #666;
+  margin: 10px 0 30px;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(158px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.team-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  padding-bottom: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.image {
+  width: 100%;
+  aspect-ratio: 1/1;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin: 15px auto;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.role {
+  font-size: 14px;
+  color: #8fbaf3;
+}
+
+.profile-link {
+  display: block;
+  font-size: 14px;
+  color: #4c99e6;
+  opacity: 0;
+  transition: opacity 0.3s;
+  margin-top: 5px;
+}
+
+.team-card:hover .profile-link {
+  opacity: 1;
+}
+
+.footer {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f8faff;
+}
+
+.footer-links a {
+  color: #647587;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.footer-icons a {
+  margin: 0 10px;
+  color: #647587;
+}
+
+.footer p {
+  color: #647587;
+  margin-top: 20px;
+  font-size: 14px;
+}

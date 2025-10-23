@@ -54,7 +54,7 @@ body {
 
 .profile-text .role {
   font-size: 16px;
-  color: #777;
+  color: #f6f6f6;
 }
 
 .github-btn {
@@ -72,6 +72,7 @@ body {
   text-decoration: none;
   color: #333;
   transition: background-color 0.3s;
+  text-decoration: none;
 }
 
 .github-btn a:hover {
@@ -105,12 +106,13 @@ body {
 }
 
 .skills span {
-  background-color: rgba(143, 186, 243, 0.3);
-  color: #3a73c4;
+  background-color: rgba(80, 43, 20, 0.454);
+  color: #46210e;
   padding: 6px 16px;
   border-radius: 20px;
   font-size: 14px;
   font-weight: 500;
+  text-decoration: none;
 }
 
 footer {
@@ -119,8 +121,9 @@ footer {
 }
 
 .back-btn {
+  text-decoration: none;
   width: 100%;
-  background-color: #8fbaf3;
+  background-color: #593c38;
   color: white;
   font-weight: 700;
   border: none;
@@ -129,8 +132,12 @@ footer {
   cursor: pointer;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   transition: background-color 0.3s;
+  color: #f6f6f6;
 }
 
 .back-btn:hover {
-  background-color: #6aa3e6;
+  text-decoration: none;
+  background-color: #5f3d30c5;
+  color: #f6f6f6;
+  
 }

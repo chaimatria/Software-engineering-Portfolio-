@@ -1,6 +1,6 @@
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #f8faff;
+  background-color: #e5cfa0;
   margin: 0;
   padding: 0;
   color: #111417;
@@ -8,8 +8,8 @@ body {
 
 .header {
   text-align: center;
-  padding: 20px;
-  background-color: #f8faff;
+  padding: 40px;
+  background-color: #e5cfa0;
 }
 
 .menu-bar {
@@ -23,13 +23,13 @@ body {
 }
 
 .title {
-  font-size: 28px;
+  font-size: 40px;
   font-weight: 700;
   margin: 10px 0;
 }
 
 .subtitle {
-  color: #4c99e6;
+  color: #46210e;
   font-size: 16px;
 }
 
@@ -83,13 +83,13 @@ body {
 
 .role {
   font-size: 14px;
-  color: #8fbaf3;
+  color: #665336;
 }
 
 .profile-link {
   display: block;
   font-size: 14px;
-  color: #4c99e6;
+  color: #3f2317;
   opacity: 0;
   transition: opacity 0.3s;
   margin-top: 5px;
